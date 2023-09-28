@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        main: '#00C793',
-        maindark: '#008462',
+        main: '#F5B041',
+        maindark: '#A3752B',
         secondary: '#4E54C8'
       }
     }

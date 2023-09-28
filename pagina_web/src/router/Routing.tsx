@@ -7,6 +7,7 @@ import { Rutas } from '../components/public/Rutas'
 import { Carrito } from '../components/public/Carrito'
 import { Blogs } from '../components/public/Blogs'
 import { ViewBlog } from '../components/public/ViewBlog'
+import { Nosotros } from '../components/public/Nosotros'
 
 export const Routing = (): JSX.Element => {
   return (
@@ -19,6 +20,7 @@ export const Routing = (): JSX.Element => {
             <Route path='carrito' element={<Carrito/>} />
             <Route path='blogs' element={<Blogs/>} />
             <Route path='view-blog' element={<ViewBlog/>} />
+            <Route path='nosotros' element={<Nosotros/>} />
           </Route>
             <Route path='rutas' element={<Rutas/>} />
         </Routes>

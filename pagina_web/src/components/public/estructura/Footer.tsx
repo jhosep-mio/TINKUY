@@ -42,7 +42,7 @@ export const Footer = (): JSX.Element => {
             </li>
             <li>
               <Link
-                to=""
+                to="/nosotros"
                 className="opacity-80 hover:opacity-100 transition-opacity text-xs lg:text-base"
               >
                 Quienes Somos

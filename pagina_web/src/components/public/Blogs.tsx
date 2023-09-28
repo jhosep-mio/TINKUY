@@ -9,7 +9,7 @@ export const Blogs = (): JSX.Element => {
   return (
     <div className="blog">
       <div className="blog__title">
-        <h1>Blogs</h1>
+        <h1>Experiencias Tinkuy</h1>
       </div>
       <div className="blog__main">
         <Link to="/view-blog" className="cardBlog">

@@ -20,7 +20,7 @@ export const Header = (): JSX.Element => {
             to="#"
             className="bg-white px-10 py-3 rounded-3xl text-main font-bold hidden md:block"
           >
-            Crea tu ruta
+            Diseña tu experiencia
           </Link>
           <Link to="carrito" className="h-fit w-fit relative">
             <span className="absolute top-[-5px] right-[-5px] bg-red-500 w-6 h-6 rounded-full flex items-center justify-center text-white">

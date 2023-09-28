@@ -14,8 +14,12 @@ import ubicacion from './../../assets/images/maps/ubicacion.svg'
 import mapa from './../../assets/images/maps/mapa.svg'
 import plaza from './../../assets/images/rutas/plaza.png'
 import blog1 from './../../assets/images/blog/blog1.jpg'
+import cart from './../../assets/images/home/cart.png'
+import valor from './../../assets/images/home/valor.png'
 
 export {
+  valor,
+  cart,
   slider1,
   travelPlan,
   recommended,

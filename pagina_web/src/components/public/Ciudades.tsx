@@ -52,8 +52,8 @@ export const Ciudades = (): JSX.Element => {
               to="#"
               className="text-main font-extrabold text-xl text-center"
             >
-              CREA TU RUTA PERSONALIZADA CON{' '}
-              <span className="text-black">INTELIGENCIA ARTIFICIAL</span>
+              EXPERIENCIAS INTELIGENTES CON <br/>
+              <span className="text-black">TINKUY</span>
             </Link>
           </div>
           <div className="">
@@ -69,7 +69,7 @@ export const Ciudades = (): JSX.Element => {
 
       <section className="w-full bg-[#252525] py-2 lg:py-4">
         <h2 className="text-center text-xl lg:text-4xl font-extrabold text-white">
-          ¡Tenemos estas rutas preparadas para ti!
+          ¡Experiencias solo para ti!
         </h2>
       </section>
 

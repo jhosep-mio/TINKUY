@@ -1,5 +1,5 @@
 import { BsFillTrashFill, BsXLg } from 'react-icons/bs'
-import { plaza } from '../shared/Images'
+import { cart, plaza } from '../shared/Images'
 import { useEffect } from 'react'
 
 export const Carrito = (): JSX.Element => {
@@ -13,8 +13,8 @@ export const Carrito = (): JSX.Element => {
           <div className="cart_main_items">
             <div className="cart_mainitems_content">
               <div className="cart_mainitemscontent_title">
-                <h2>
-                  Carrito <span>(1 producto)</span>
+                <h2 className='flex gap-2 items-center'>
+                  <img src={cart} alt="" className='w-14 h-14'/> <span className='font-extrabold'>(1 producto)</span>
                 </h2>
                 <button>
                   <BsXLg />

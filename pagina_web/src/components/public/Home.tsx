@@ -7,9 +7,7 @@ import 'swiper/css/navigation'
 import { Navigation } from 'swiper/modules'
 import { Link } from 'react-router-dom'
 import {
-  chatbot,
   madrid,
-  recommended,
   safe,
   slider1,
   travelPlan
@@ -33,13 +31,13 @@ export const Home = (): JSX.Element => {
         <div className="w-fit h-full flex items-center justify-center flex-col mx-auto gap-6 lg:gap-16">
           <div>
             <h1 className="text-white text-3xl lg:text-6xl text-center texto_principal font-bold">
-              Planifica tu viaje con <br /> GTP
+              Personaliza tu encuentro con <br /> Tinkuy-IA
             </h1>
           </div>
           <div className="w-fit lg:w-[650px] h-10 lg:h-16 flex bg-white rounded-lg p-1 justify-between">
             <input
               type="text"
-              placeholder="¿Dónde quieres viajar?"
+              placeholder="¿A dónde te escaparias?"
               className="bg-white w-full placeholder:text-black placeholder:font-sm font-medium text-sm lg:text-2xl input_gtp pr-2"
             />
             <button className="bg-main w-auto h-full flex items-center gap-3 text-white rounded-lg font-bold px-4 text-sm lg:text-2xl">
@@ -48,15 +46,31 @@ export const Home = (): JSX.Element => {
           </div>
           <div className="">
             <p className="description_text font-bold text-sm lg:text-2xl hidden md:block">
-              ¡No te alejes! Estamos trabajando en lugares de ensueño como
-              Sevilla, Granada, Roma, Florencia, París, Lisboa, Oporto,
-              Londres..¡y muchos más!
+              Tinkui Peru….. lugar de encuentro, disfruta de la naturaleza y de
+              nuevas experiencias en Huancabamba, Ayabaca, Sechura , Morropón Y
+              MUCHOS MÁS
             </p>
           </div>
         </div>
       </section>
 
       <section className="w-full grid grid-cols-2 md:grid-cols-4 max-w-[1450px] mx-auto px-2 lg:px-4 py-2 lg:py-10 section_sol gap-2 lg:gap-10">
+        <div className="w-full h-full flex items-start lg:items-center justify-start gap-2 lg:gap-6">
+          <img
+            src={travelPlan}
+            alt="Tunky Perú"
+            className="w-10 h-10 lg:w-16 lg:h-16 object-contain m-auto"
+          />
+          <div className="w-full">
+            <h2 className="font-extrabold text-sm lg:text-2xl text-main">
+              Autenticidad
+            </h2>
+            <p className="font-extrabold text-xs lg:text-base ">
+              Valoramos lo nuestro y queremos compartirlo contigo de una manera
+              diferente y brindarte momentos innolvidables
+            </p>
+          </div>
+        </div>
         <div className="w-full h-full flex items-start lg:items-center justify-center gap-2 lg:gap-6">
           <img
             src={travelPlan}
@@ -65,32 +79,17 @@ export const Home = (): JSX.Element => {
           />
           <div className="w-full">
             <h2 className="font-extrabold text-sm lg:text-2xl text-main">
-              Sin esfuerzo
+              Destinos
             </h2>
-            <p className="font-extrabold text-xs lg:text-lg ">
-              Consigue una guía realizada por nuestros Cicerones según tu perfil
-            </p>
-          </div>
-        </div>
-
-        <div className="w-full h-full flex items-start lg:items-center justify-center gap-2 lg:gap-6">
-          <img
-            src={recommended}
-            alt="Tunky Perú"
-            className="w-10 h-10 lg:w-16 lg:h-16 object-contain m-auto"
-          />
-          <div className="w-full">
-            <h2 className="font-extrabold text-sm lg:text-2xl text-main">
-              Adaptada a tu viaje
-            </h2>
-            <p className="font-extrabold text-xs lg:text-lg ">
-              Ruta a medida según los días e intereses de tu viaje
+            <p className="font-extrabold text-xs lg:text-base">
+              De la amazonia al desierto de altas cumbres de los Andes al
+              pacifico. Dejate enamorar por los increibles contrastes del Perú
             </p>
           </div>
         </div>
         <div className="w-full h-full flex items-start lg:items-center justify-center gap-2 lg:gap-6">
           <img
-            src={chatbot}
+            src={travelPlan}
             alt="Tunky Perú"
             className="w-10 h-10 lg:w-16 lg:h-16 object-contain m-auto"
           />
@@ -98,13 +97,13 @@ export const Home = (): JSX.Element => {
             <h2 className="font-extrabold text-sm lg:text-2xl text-main">
               Soporte 24/7
             </h2>
-            <p className="font-extrabold text-xs lg:text-lg ">
-              Gracias a nuestra chatbot que hace de oficina de turismo
+            <p className="font-extrabold text-xs lg:text-base">
+              Estamos comprometidos para brindarte la mejor experiencia de
+              viaje, estamos para servirte en todo momento
             </p>
           </div>
         </div>
-
-        <div className="w-full h-full flex items-start lg:items-center justify-center gap-2 lg:gap-6">
+        <div className="w-full h-full flex items-start lg:items-start justify-center gap-2 lg:gap-6">
           <img
             src={safe}
             alt="Tunky Perú"
